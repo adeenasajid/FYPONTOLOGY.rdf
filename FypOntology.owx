@@ -1,0 +1,1033 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2025/3/capstone"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2025/3/capstone">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2025/3/capstone/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">this is anology about capstone project</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Android_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Capstone_project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Design_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluation_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Demo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Proposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Final_Viva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Gantt_Chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Hardware_Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Initial_Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Innovation_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mid_Viva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Milestone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Presentation_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Project_Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Project_Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Proposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Proposal_Submission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Report_Subimission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SRS_Completion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SRS_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Technical_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Technology_Used"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Timeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Web_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Weekly_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/intial_proposal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDocumentation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasFinalPropsal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasFinalReportDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasInitialProposal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasInnovationCriteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPresentationCriteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasSRSDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasStakeholder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Domain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_EvaluationCriteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Evaluator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Milestone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Presentation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Proposal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Report"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Student"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_TechnicalCriteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_Timeline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/uses_Technology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/documentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/domainDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/domainName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/endDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/evaluationScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/evaluatorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/fileformat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/milestoneDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/milestoneStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/milestoneTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/presentationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/presenterName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/projectDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/projectEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/projectStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/projectTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/proposalStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/prsentationScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/remarks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/reportDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/reportTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/reportVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/startDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/studentID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/studentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/submissionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/supervisorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/techName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/techType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/uploadDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/version"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/versionNumber"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/Android_Development"/>
+        <Class IRI="/Project_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasDocumentation"/>
+            <Class IRI="/Documentation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasStakeholder"/>
+            <Class IRI="/Stakeholder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/has_Domain"/>
+            <Class IRI="/Project_Domain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/uses_Technology"/>
+            <Class IRI="/Technology_Used"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="/has_Proposal"/>
+            <Class IRI="/Proposal"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Capstone_project"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/has_Timeline"/>
+            <Class IRI="/Timeline"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Database"/>
+        <Class IRI="/Technology_Used"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Design_Document"/>
+        <Class IRI="/Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Documentation"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Evaluation_Criteria"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Demo"/>
+        <Class IRI="/Milestone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Document"/>
+        <Class IRI="/Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Presentation"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Presentation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/presentationDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Presentation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/presenterName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Presentation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/prsentationScore"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Proposal"/>
+        <Class IRI="/Proposal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Report"/>
+        <Class IRI="/Project_Report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Final_Viva"/>
+        <Class IRI="/Final_Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Framework"/>
+        <Class IRI="/Technology_Used"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gantt_Chart"/>
+        <Class IRI="/Timeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Hardware_Tool"/>
+        <Class IRI="/Technology_Used"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Initial_Report"/>
+        <Class IRI="/Project_Report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mid_Viva"/>
+        <Class IRI="/Final_Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Milestone"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Milestone"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/milestoneDate"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Milestone"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/milestoneStatus"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Milestone"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/milestoneTitle"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Presentation_Criteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programming_Language"/>
+        <Class IRI="/Technology_Used"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Domain"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Domain"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/domainDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Domain"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/domainName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Manager"/>
+        <Class IRI="/Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/reportDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/reportTitle"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Project_Report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/reportVersion"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Proposal"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Proposal"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/proposalStatus"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Proposal_Submission"/>
+        <Class IRI="/Milestone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Report_Subimission"/>
+        <Class IRI="/Milestone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SRS_Completion"/>
+        <Class IRI="/Milestone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SRS_Document"/>
+        <Class IRI="/Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Stakeholder"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Students"/>
+        <Class IRI="/Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Supervisor"/>
+        <Class IRI="/Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Technical_Criteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Technology_Used"/>
+        <Class IRI="/Capstone_project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Technology_Used"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/techName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Technology_Used"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/techType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Technology_Used"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/versionNumber"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Timeline"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/has_Milestone"/>
+            <Class IRI="/Milestone"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Timeline"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/endDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Timeline"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/startDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Web_Development"/>
+        <Class IRI="/Project_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weekly_Plan"/>
+        <Class IRI="/Timeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/intial_proposal"/>
+        <Class IRI="/Proposal"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <Class IRI="/Documentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDocumentation"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasFinalPropsal"/>
+        <Class IRI="/Proposal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasFinalReportDocument"/>
+        <Class IRI="/Documentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasInitialProposal"/>
+        <Class IRI="/Proposal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasInnovationCriteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPresentationCriteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasSRSDocument"/>
+        <Class IRI="/Documentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasStakeholder"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Domain"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_EvaluationCriteria"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Evaluator"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Milestone"/>
+        <Class IRI="/Timeline"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Presentation"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Proposal"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Report"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Student"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Supervisor"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_TechnicalCriteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_Timeline"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/uses_Technology"/>
+        <Class IRI="/Capstone_project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <Class IRI="/Design_Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDocumentation"/>
+        <Class IRI="/Documentation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasFinalPropsal"/>
+        <Class IRI="/Final_Proposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasFinalReportDocument"/>
+        <Class IRI="/Final_Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasInitialProposal"/>
+        <Class IRI="/intial_proposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasInnovationCriteria"/>
+        <Class IRI="/Innovation_Criteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPresentationCriteria"/>
+        <Class IRI="/Presentation_Criteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasSRSDocument"/>
+        <Class IRI="/SRS_Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasStakeholder"/>
+        <Class IRI="/Stakeholder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Domain"/>
+        <Class IRI="/Project_Domain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_EvaluationCriteria"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Evaluator"/>
+        <Class IRI="/Project_Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Milestone"/>
+        <Class IRI="/Milestone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Presentation"/>
+        <Class IRI="/Final_Presentation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Proposal"/>
+        <Class IRI="/Proposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Report"/>
+        <Class IRI="/Project_Report"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Student"/>
+        <Class IRI="/Students"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Supervisor"/>
+        <Class IRI="/Supervisor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_TechnicalCriteria"/>
+        <Class IRI="/Technical_Criteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_Timeline"/>
+        <Class IRI="/Milestone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/uses_Technology"/>
+        <Class IRI="/Timeline"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/version"/>
+        <DataProperty IRI="/startDate"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="/documentName"/>
+        <Class IRI="/Documentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/domainDescription"/>
+        <Class IRI="/Project_Domain"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/domainName"/>
+        <Class IRI="/Project_Domain"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/endDate"/>
+        <Class IRI="/Timeline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/evaluationScore"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/evaluatorName"/>
+        <Class IRI="/Project_Manager"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/fileformat"/>
+        <Class IRI="/Documentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/milestoneDate"/>
+        <Class IRI="/Milestone"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/milestoneStatus"/>
+        <Class IRI="/Milestone"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/milestoneTitle"/>
+        <Class IRI="/Milestone"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/presentationDate"/>
+        <Class IRI="/Final_Presentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/presenterName"/>
+        <Class IRI="/Final_Presentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/projectDescription"/>
+        <Class IRI="/Capstone_project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/projectEndDate"/>
+        <Class IRI="/Capstone_project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/projectStartDate"/>
+        <Class IRI="/Capstone_project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/projectTitle"/>
+        <Class IRI="/Capstone_project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/proposalStatus"/>
+        <Class IRI="/Proposal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/prsentationScore"/>
+        <Class IRI="/Final_Presentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/remarks"/>
+        <Class IRI="/Evaluation_Criteria"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/reportDate"/>
+        <Class IRI="/Project_Report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/reportTitle"/>
+        <Class IRI="/Project_Report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/reportVersion"/>
+        <Class IRI="/Project_Report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/startDate"/>
+        <Class IRI="/Timeline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/studentID"/>
+        <Class IRI="/Students"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/studentName"/>
+        <Class IRI="/Students"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/submissionDate"/>
+        <Class IRI="/Proposal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/supervisorName"/>
+        <Class IRI="/Supervisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/techName"/>
+        <Class IRI="/Technology_Used"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/techType"/>
+        <Class IRI="/Technology_Used"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/uploadDate"/>
+        <Class IRI="/Documentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/version"/>
+        <Class IRI="/Technology_Used"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/versionNumber"/>
+        <Class IRI="/Documentation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/documentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/domainDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/domainName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/endDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/evaluationScore"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/evaluatorName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/fileformat"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/milestoneDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/milestoneStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/milestoneTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/presentationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/presenterName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/projectDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/projectEndDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/projectStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/projectTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/proposalStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/prsentationScore"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/remarks"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/reportDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/reportTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/reportVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/startDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/studentID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/studentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/submissionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/supervisorName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/techName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/techType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/uploadDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/versionNumber"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/versionNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
